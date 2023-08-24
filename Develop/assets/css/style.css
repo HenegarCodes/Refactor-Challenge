@@ -2,64 +2,65 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    /* universal selctor creating the guidelines of the page which allows our pictures and text to be within it*/
 }
 
 body {
     background-color: #d9dcd6;
+    /*puts background color for the whole page*/
 }
 
-.top-page {
+
+
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
+    /*adds spacing on top of page, family for font and color of it at the top*/
 }
 
-.top-page h1 {
+
+
+header h1 {
     display: inline-block;
     font-size: 48px;
+    
+    /*puts the h1 and enlarges it to the desired size and makes it so the top of the page can house our nav bar*/
 }
 
-/*.header h1 .seo {
-    color: #fb00fb;
-} 
+header h1 .seo {
+    color: #d9dcd6;
+}
 
-dont think this is doing anything 
 
-*/
 
-.navbar-buttons {
-    padding-top: 15px;
+header nav{
+    padding-top: 15px ;
     margin-right: 20px;
     float: right;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 
-/* This controls the placement of the navigation bar menu items */
+/*controls the placement of the navigation bar menu items */
 
 }
 
-/*.header div ul {
+header nav ul{
     list-style-type: none;
-}   
+}
 
-Probably does nothing
-
-
-*/
-
-.top-page nav ul li {
+header nav ul li {
     display: inline-block;
     margin-left: 25px;
-
-    /* This needs to be renamed*/
+/*puts the nav bar in inline to put the links next to each other with slight margin for spacing*/
 }
 
 
 a {
     color: #ffffff;
     text-decoration: none;
-    /* this gives all anchor elements attributes and removes the hyperlink underline on them*/
+    /* gives all anchor elements attributes and removes the hyperlink underline on them*/
 }
 
 .digital-marketing-pic {
@@ -96,6 +97,8 @@ p {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
+    /*puts services pictures and descriptions in the center of its poisitioning
+    and allows the results to sit on right side of the services section*/
 }
 
 .results {
@@ -107,7 +110,8 @@ p {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
-    
+    /*positions and sizes the results class sections into the right side next to the section of services and centers it in that space
+*/
 }
 
 .lead-generation,
@@ -115,6 +119,7 @@ p {
 .benefit-cost {
     margin-bottom: 32px;
     color: #ffffff;
+    /*creates a margin for the section and colors it properly to match*/
 }
 
 .lead-generation h3,
@@ -123,6 +128,7 @@ p {
  {
     margin-bottom: 10px;
     text-align: center;
+    /*centers the results section h3's on the right section */
 }
 
 .lead-generation img,
@@ -132,6 +138,7 @@ p {
     display: block;
     margin: 10px auto;
     max-width: 150px;
+    /*images for the results section centered accordingly to their own sections*/
 }
 
 .seo-reputation-marketing
@@ -142,17 +149,20 @@ p {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #0072bb;
     color: #ffffff;
+    /*puts text properly aligned in the respective box and section it is in within the services section*/
 }
 
 .seo-reputation-marketing img
  {
     max-height: 200px;
+    /*puts the sections images in the correct size via pixels*/
 }
 
 .seo-reputation-marketing h2
  {
     margin-bottom: 20px;
     font-size: 36px;
+    /*puts the h2 headers in the correct size and margin*/
 }
 
 .footer {
@@ -160,8 +170,10 @@ p {
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
+    /*addes the footer and centers it*/
 }
 
 .footer h2 {
     font-size: 20px;
+    /*adjusts the footer text size*/
 }
